@@ -1,0 +1,343 @@
+
+
+/* responsive */
+@media (max-width: 1440px) {
+    .customize-page {
+      width: 90%;
+      padding: 30px;
+    }
+    .customize-page .user-profile-img {
+      width: 50%;
+    }
+    .customize-page .mini-img {
+      bottom: 15px;
+      right: 127px;
+    }
+    .bg-image-container {
+      padding: 70px 125px 20px;
+    }
+    .bg-image-container .mini-img {
+      top: 18px;
+      left: 100px;
+    }
+    .customize-page textarea {
+      height: 70px;
+    }
+
+
+
+    .dashboar-bar{
+        width: 120px;
+    }
+
+    .user-banner{
+        padding:40px;
+    }
+
+    .tabs{
+        padding:0px 20px 10px;
+    }
+
+    .Logo-main .logo-brand{
+        width: 100%;
+    }
+
+    .tabcontent{
+        padding:15px;
+    }
+
+    .user-fixed-btm img{
+        width: 100%;
+    }
+
+    .user-info, .user-select-float{
+        display: none;
+    }
+
+    .menu-list p {
+        display: none;
+    }
+  }
+
+
+
+
+  @media screen and (max-width:1024px) {
+    .customize-page {
+      top:15px;
+    }
+    .user-banner {
+      padding: 10px 30px 10px;
+    }
+    .user-profile .user-profile-img {
+      width: 150px;
+    }
+    .mini-img {
+      right: 30px;
+    }
+    .user-banner-content p {
+      width: 75%;
+    }
+    .customize-page .user-profile .user-profile-img {
+      width: 100px;
+    }
+    .customize-page h3 {
+      font-size: 18px;
+    }
+    .label p {
+      font-size: 15px;
+    }
+    .customize-page .btn-add-details button {
+      font-size: 15px;
+    }
+
+
+    /* Tablet View */
+
+    .dashboar-bar{
+        height: auto;
+    }
+  }
+
+
+
+
+  /* tablet */
+  @media (max-width: 768px) {
+    .user-banner {
+      padding: 10px 50px 10px
+    }
+    .user-profile .user-profile-img {
+      width: 150px;
+    }
+    .mini-img {
+      right: 35px;
+    }
+    .user-banner-content p {
+      width: 65%;
+    }
+    .customize-page {
+      padding: 20px;
+      width: 90%;
+    }
+    h3, .label h3 {
+      font-size: 18px;
+    }
+  .customize-page .row-container {
+    gap: 10px;
+    }
+    .customize-page .user-profile-img {
+      width: 45%;
+    }
+    .customize-page .mini-img {
+      bottom: 20px;
+      right: 125px;
+    }
+    .bg-image-container {
+      padding: 70px 90px 20px;
+      width: 10px;
+    }
+    .bg-image-container .mini-img {
+      top: 18px;
+      left: 70px;
+    }
+    .customize-page input, .customize-page textarea {
+      width: 190px;
+    }
+    .customize-page h2.page-title {
+      font-size: 25px;
+    }
+    .customize-page .btn-add-details button {
+      width: 190px;
+    }
+
+    .dashboar-bar{
+        height: auto;
+    }
+
+  }
+
+
+
+@media screen and (max-width:500px){
+
+    .mobile-bars{
+        display: flex;
+    }
+
+
+    .dashboar-bar{
+        min-height: 100vh!important;
+        height: 100%!important;
+        padding:10px;
+        width: 80px;
+        position: fixed;
+        transform: translateX(-80px);
+        transition: .4s;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .side-bar-show{
+        transform: translateX(0px)!important;
+    }
+
+    .user-profile .user-profile-img{
+        width: 70px;
+    }
+
+    .user-profile{
+        width:120px;
+    }
+
+    .mini-img{
+        width: 30px;
+        height: 30px;
+        padding:8px;
+        bottom:-10px;
+    }
+
+    .user-banner{
+        padding:20px;
+    }
+
+    .user-banner-content p{
+        width:100%;
+    }
+
+    .see-prof-button{
+        display: none;
+    }
+
+    .post-items-list{
+        flex-direction: column;
+    }
+
+    .post-item-control, .post-item-content{
+        width:100%;
+    }
+
+    .user-page-control .create{
+        width:40%;
+    }
+
+    .user-page-control .create button{
+        padding:5px;
+    }
+
+    .user-page-control .share, .user-page-control .dots{
+        width:15%;
+    }
+
+    .tablink{
+        font-size: 15px;
+    }
+
+    .top-dashboard{
+        padding:10px!important;
+    }
+
+    .menu-list{
+        padding: 10px!important;
+    }
+
+    .bottom-dash-section{
+        padding:10px!important;
+    }
+
+    .user-page-inner{
+        width: 100%;
+        max-width: 100%;
+        padding:20px;
+        box-shadow: none;
+    }
+
+    .user-page-content{
+        padding:60px 20px;
+    }
+
+    .user-page-control{
+        top:0px;
+    }
+
+    .publish-page, .row-btn{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .form-container{
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2549019608);
+        padding:40px 20px;
+        border-radius: 10px;
+    }
+
+    .input-section{
+        flex-direction: column!important;
+        align-items: flex-start!important;
+    }
+
+    .create-page-upload-text{
+        width:100%!important;
+    }
+
+    .cp.user-profile{
+        width:100%;
+    }
+
+    .create-post.user-profile-img{
+        padding:20px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .create-post.mini-img{
+        position:inherit;
+    }
+
+    .form-banner{
+        padding:20px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .create-page-upload-text.mb-3.d-flex.flex-column {
+        width: 135px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .user-page-inner .btn-add-details button {
+        font-size: 16px;
+        background: red;
+    }
+    a.btn-add-details.create-post-page-btn {
+        margin-left: 140px;
+    }
+    .user-page-inner .page-image {
+        width: 100px;
+    }
+    .user-page-inner .user-page-title {
+        font-size: 25px;
+    }
+}
+@media (max-width: 425px) {
+    .create-page-upload-text.mb-3.d-flex.flex-column {
+        width: 115px !important;
+    }
+    a.btn-add-details.create-post-page-btn {
+        margin-left: 130px;
+    }
+    .post-items-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .post-item-content {
+        width: 100%;
+        text-align: center;
+    }
+    .post-items-list p {
+        width: 100%;
+    }
+}

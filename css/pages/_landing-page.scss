@@ -1,0 +1,89 @@
+.landing-page {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 30vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+  }
+}
+
+.landing-page-form {
+  margin-bottom: 2rem;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+    .images {
+      img {
+        width: 80%;
+        height: 90%;
+        @include mediaQuery($break-md) {
+          width: 100%;
+        }
+      }
+    }
+
+    .landing-side {
+      padding-top: 10rem;
+      @include mediaQuery($break-md) {
+        padding-top: 2rem;
+      }
+      h1 {
+        font-size: 3rem;
+        color: #286fb4;
+        text-align: center;
+        @include mediaQuery($break-md) {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+
+      .landing-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        @include mediaQuery($break-md) {
+          display: block;
+        }
+        .btn-1 {
+          margin-right: 2rem;
+          @include mediaQuery($break-md) {
+            margin: 0;
+          }
+          button {
+            padding: 1rem 5rem;
+            background-color: #3c91ec;
+            color: #ffffff;
+            border: none;
+            border-radius: 0.5rem;
+            @include mediaQuery($break-md) {
+              width: 100%;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+        .btn-2 {
+          margin-right: 2rem;
+          @include mediaQuery($break-md) {
+            margin: 0;
+          }
+          button {
+            padding: 1rem 6rem;
+            background-color: #286fb4;
+            color: #ffffff;
+            border: none;
+            border-radius: 0.5rem;
+            @include mediaQuery($break-md) {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

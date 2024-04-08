@@ -1,0 +1,87 @@
+.contact_banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1 {
+    text-align: center;
+    padding-top: 15rem;
+    color: #286fb4;
+    font-size: 5rem;
+    font-weight: bold;
+    @include mediaQuery($break-md) {
+      font-size: 3rem;
+    }
+  }
+}
+
+.contact-form {
+  background-image: url("../../images/bg.png");
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @include mediaQuery($break-md) {
+    background-position: right;
+    padding: 2rem 1rem;
+    padding-bottom: 55rem;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+    .content {
+      h1 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+      }
+      p {
+        margin-left: 1rem;
+      }
+      form {
+        input {
+          @include mediaQuery($break-md) {
+            width: 100%;
+            margin-left: 0;
+          }
+          width: 45%;
+          padding: 0.9rem 1rem;
+          margin-left: 1rem;
+          background-color: #e1e1e1;
+          border: none;
+          margin-bottom: 1rem;
+        }
+        textarea {
+          width: 93%;
+          height: 22vh;
+          margin-left: 1rem;
+          padding: 1rem 1rem;
+          background-color: #e1e1e1;
+          border: none;
+          @include mediaQuery($break-md) {
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+        a {
+          color: #df4c73;
+          border-bottom: 2px solid #e4b6c2;
+          padding: 0.5rem 0;
+          float: right;
+          margin-top: 1rem;
+          margin-right: 3rem;
+          i {
+            margin-left: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

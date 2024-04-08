@@ -1,0 +1,354 @@
+.banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 120vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10rem 0;
+
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+      padding: 2rem 1rem;
+    }
+    .content {
+      h1 {
+        @include mediaQuery($break-md) {
+          font-size: 2rem;
+        }
+        font-size: 4rem;
+        font-weight: bold;
+        color: #286fb4;
+
+        margin-top: 10rem;
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+    .images {
+      padding: 5rem 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.slider {
+  .content1 {
+    h1 {
+      color: #000000;
+      font-weight: bold;
+      @include mediaQuery($break-md) {
+        font-size: 2rem;
+      }
+      span {
+        color: #286fb4;
+      }
+    }
+  }
+  .content {
+    @include mediaQuery($break-md) {
+      flex-direction: column;
+    }
+    .side {
+      .icon {
+        margin-right: 2rem;
+        i {
+          font-size: 2rem;
+          margin-left: 1rem;
+          //   border: 1px solid #000000;
+          //   padding: 1rem 1rem;
+          //   border-radius: 500%;
+        }
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        @include mediaQuery($break-md) {
+          display: none;
+        }
+        i {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.featured-page {
+  @include mediaQuery($break-md) {
+    padding: 0 1rem;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+    .content {
+      padding: 4rem 0;
+      @include mediaQuery($break-md) {
+        padding: 0;
+        margin-top: -2rem;
+      }
+      h1 {
+        font-size: 4rem;
+        @include mediaQuery($break-md) {
+          font-size: 2.5rem;
+        }
+        span {
+          color: #286fb4;
+        }
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.read-listen {
+  background-image: url("../../images/ssasa.png");
+  height: 110vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include mediaQuery($break-md) {
+    margin-bottom: 45rem;
+    padding-bottom: 0;
+    height: 120vh;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    @include mediaQuery($break-md) {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    span {
+      color: #286fb4;
+    }
+  }
+  p {
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+      padding-bottom: 50rem;
+    }
+    .content {
+      text-align: center;
+      h2 {
+        color: #286fb4;
+        text-transform: uppercase;
+        @include mediaQuery($break-md) {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+          margin-top: 1rem;
+        }
+      }
+      h3 {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.follow-social {
+  background-image: url("../../images/Path\ 201.png");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -5rem;
+  @include mediaQuery($break-md) {
+    padding-bottom: 10rem;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+    .content {
+      @include mediaQuery($break-md) {
+        padding: 1rem 1rem;
+      }
+      padding: 8rem 4rem;
+      h1 {
+        font-weight: bold;
+        span {
+          color: #286fb4;
+        }
+      }
+      h3 {
+        font-size: 1rem;
+      }
+    }
+    .images {
+      margin-top: -12rem;
+      img {
+        @include mediaQuery($break-md) {
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.newsletter {
+  @include mediaQuery($break-md) {
+    padding: 5rem 1rem;
+  }
+  .content {
+    h1 {
+      color: #286fb4;
+      font-weight: bold;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  form {
+    input {
+      width: 50%;
+      padding: 1rem 1rem;
+      @include mediaQuery($break-md) {
+        width: 100%;
+        margin-bottom: 1rem;
+        border: 1px solid black;
+      }
+    }
+    .btn {
+      @include mediaQuery($break-md) {
+        width: 100%;
+      }
+      padding: 1rem 1rem;
+      background-color: #286fb4;
+      color: #ffff;
+    }
+  }
+}
+
+.footer {
+  @include mediaQuery($break-md) {
+    padding: 0 1rem;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 6rem;
+
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .content1 {
+    .logo {
+      .img {
+        margin-bottom: 3rem;
+      }
+    }
+
+    .social-media {
+      margin-top: 3rem;
+
+      i {
+        margin-right: 1rem;
+        font-size: 2rem;
+        align-items: center;
+        color: #286fb4;
+      }
+    }
+  }
+
+  .content2 {
+    @include mediaQuery($break-md) {
+      margin-top: -3rem;
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      @include mediaQuery($break-md) {
+        margin-bottom: 1rem;
+      }
+    }
+    ul {
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .footnote {
+    padding: 3rem 0;
+    margin-top: 3rem;
+    background-image: url("../../images/Path\ 202.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include mediaQuery($break-md) {
+      background-size: cover;
+    }
+  }
+}
+
+header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.follow-us {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: white;
+  }
+
+  i {
+    margin-right: 1rem;
+    color: white;
+  }
+}

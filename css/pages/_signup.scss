@@ -1,0 +1,134 @@
+.signup {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 30vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+  }
+}
+
+.signup-form {
+  margin-bottom: 2rem;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+
+    .images {
+      img {
+        width: 90%;
+        height: 90%;
+        @include mediaQuery($break-md) {
+          width: 100%;
+        }
+      }
+    }
+    .log-form {
+      padding: 4rem 3rem;
+      max-height: 120vh;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      @include mediaQuery($break-md) {
+        margin-top: -2rem;
+        box-shadow: none;
+        padding: 4rem 1rem;
+      }
+      h1 {
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #286fb4;
+        font-size: 2rem;
+        @include mediaQuery($break-md) {
+          font-size: 1.9rem;
+        }
+      }
+
+      h3 {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        position: relative;
+        margin-bottom: 2rem;
+        &::before {
+          content: "";
+          display: block;
+          width: 230px;
+          height: 1px;
+          background: #707070;
+          left: 8px;
+          top: 50%;
+          position: absolute;
+          @include mediaQuery($break-md) {
+            width: 130px;
+          }
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          width: 230px;
+          height: 1px;
+          background: #707070;
+          right: 8px;
+          top: 50%;
+          position: absolute;
+          @include mediaQuery($break-md) {
+            width: 130px;
+          }
+        }
+      }
+
+      form {
+        input {
+          padding: 1rem 2rem;
+          width: 100%;
+          border-radius: 0.3rem;
+          border: 1px solid #707070;
+          margin-bottom: 1.5rem;
+        }
+      }
+
+      .btn-login {
+        padding: 1rem 2rem;
+        background-color: #286fb4;
+        margin-top: 1.5rem;
+        border-radius: 0.3rem;
+
+        a {
+          text-transform: none;
+          color: #fff;
+          margin-left: 0.5rem;
+          font-weight: 600;
+          font-family: Sharp Sans;
+          font-size: 1.2rem;
+        }
+      }
+
+      .btn-g {
+        padding: 1rem 2rem;
+        background-color: #fff;
+        border: 1px solid #707070;
+        border-radius: 0.5rem;
+
+        i {
+          color: #1f1f1f;
+          font-size: 1.2rem;
+
+          a {
+            text-transform: none;
+            color: #1f1f1f;
+            margin-left: 0.3rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-family: Sharp Sans;
+          }
+        }
+      }
+    }
+  }
+}

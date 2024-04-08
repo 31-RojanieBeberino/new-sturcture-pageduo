@@ -1,0 +1,74 @@
+.email-confirmation {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 30vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+  }
+}
+
+.email-confirmation-form {
+  margin-bottom: 2rem;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+    }
+
+    .images {
+      img {
+        width: 90%;
+        height: 90%;
+        @include mediaQuery($break-md) {
+          width: 100%;
+        }
+      }
+    }
+    .verify-form {
+      padding: 4rem 3rem;
+      max-height: 100vh;
+
+      @include mediaQuery($break-md) {
+        margin-top: -2rem;
+        box-shadow: none;
+        padding: 4rem 1rem;
+      }
+      h1 {
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #286fb4;
+        font-size: 2rem;
+        @include mediaQuery($break-md) {
+          font-size: 1.9rem;
+        }
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .btn-verify {
+        padding: 1rem 2rem;
+        background-color: #286fb4;
+        margin-top: 1.5rem;
+        border-radius: 0.3rem;
+
+        a {
+          text-transform: none;
+          color: #fff;
+          margin-left: 0.5rem;
+          font-weight: 600;
+          font-family: Sharp Sans;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

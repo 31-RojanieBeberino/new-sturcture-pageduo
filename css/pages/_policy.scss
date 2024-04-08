@@ -1,0 +1,36 @@
+.policy {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1 {
+    text-align: center;
+    padding-top: 15rem;
+    color: #286fb4;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include mediaQuery($break-md) {
+      font-size: 3rem;
+    }
+  }
+}
+.policy-p {
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    @include mediaQuery($break-md) {
+      text-align: center;
+    }
+  }
+  p {
+    @include mediaQuery($break-md) {
+      text-align: center;
+    }
+  }
+}

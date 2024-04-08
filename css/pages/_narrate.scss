@@ -1,0 +1,208 @@
+.narrate_banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1 {
+    text-align: center;
+    padding-top: 15rem;
+    color: #286fb4;
+    font-size: 5rem;
+    font-weight: bold;
+    @include mediaQuery($break-md) {
+      font-size: 3rem;
+    }
+  }
+}
+
+.Episode {
+  padding: 10rem 10rem;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    @include mediaQuery($break-md) {
+      font-size: 2rem;
+    }
+  }
+  &__wrapper {
+    .content {
+      h2 {
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+    .story {
+      text-align: center;
+      padding: 1rem 4rem;
+      max-height: 80vh;
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      margin-bottom: 2rem;
+      @include mediaQuery($break-md) {
+        flex-direction: column;
+        padding: 3rem 1rem;
+      }
+      .images {
+        img {
+          width: 60%;
+          @include mediaQuery($break-md) {
+            width: 80%;
+          }
+        }
+      }
+
+      .content {
+        text-align: left;
+        margin-left: -5rem;
+        @include mediaQuery($break-md) {
+          margin-left: 0;
+        }
+        h1 {
+          font-weight: bold;
+          font-size: 5rem;
+          margin-bottom: 0.5rem;
+          @include mediaQuery($break-md) {
+            font-size: 2rem;
+          }
+        }
+        h3 {
+          font-weight: bold;
+          font-size: 2rem;
+          margin-bottom: 0.5rem;
+          @include mediaQuery($break-md) {
+            font-size: 1rem;
+          }
+        }
+        h5 {
+          font-weight: 400;
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    .music {
+      padding: 1rem 2rem;
+      max-height: 50vh;
+      background-color: #286fb4;
+      border-radius: 1rem;
+      margin-top: -1rem;
+
+      .images {
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 20%;
+          height: 20%;
+        }
+      }
+      .play-button {
+        justify-content: center;
+        .video-time {
+          color: #fff;
+          font-size: 14px;
+          font-family: "Sharp Sans", sans-serif;
+          line-height: 1;
+          display: flex;
+          align-items: center;
+        }
+        img {
+          width: 5%;
+        }
+        .play-bar {
+          background-color: #fdfdfd;
+          height: 5px;
+          border-radius: 5px;
+          position: relative;
+          width: 70%;
+          margin-left: 0.5rem;
+          margin-right: 0.5rem;
+          .progress-bar {
+            background-color: #df4c73;
+            width: 70%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .record-btn {
+      margin-top: 2rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      @include mediaQuery($break-md) {
+        flex-direction: column;
+      }
+      .record {
+        text-align: center;
+        background-color: #df4c73;
+        padding: 1rem 2rem;
+        width: 20%;
+        @include mediaQuery($break-md) {
+          width: 100%;
+        }
+        img {
+          width: 25%;
+        }
+
+        a {
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+      .cough {
+        background-color: rgb(226, 226, 0);
+        padding: 1.5rem 3rem;
+        border-radius: 50px;
+
+        margin-left: 1rem;
+        @include mediaQuery($break-md) {
+          width: 100%;
+          margin-left: 0;
+          margin-top: 1rem;
+        }
+        a {
+          color: #000000;
+        }
+      }
+      .save {
+        background-color: green;
+        padding: 1.5rem 3rem;
+        margin-left: 1rem;
+        width: 20%;
+        @include mediaQuery($break-md) {
+          width: 100%;
+          margin-left: 0;
+          margin-top: 1rem;
+        }
+        img {
+          width: 20%;
+        }
+        a {
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

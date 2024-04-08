@@ -1,0 +1,103 @@
+.upload_banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  h1 {
+    text-align: center;
+    padding-top: 15rem;
+    color: #286fb4;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include mediaQuery($break-md) {
+      font-size: 3rem;
+    }
+  }
+}
+
+.upload-docu {
+  margin-bottom: 2rem;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+    margin-bottom: 7rem;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    @include mediaQuery($break-md) {
+      font-size: 2rem;
+    }
+  }
+  textarea {
+    padding: 2rem 4rem;
+    width: 100%;
+    height: 50vh;
+  }
+
+  &__wrapper {
+    @include mediaQuery($break-md) {
+      flex-direction: column;
+    }
+    .upload {
+      margin-top: 2rem;
+
+      h3 {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+        font-weight: bold;
+      }
+      .upload-share {
+        img {
+          width: 90%;
+        }
+        .btn-upload {
+          margin-top: 0.6rem;
+          @include mediaQuery($break-md) {
+            text-align: center;
+          }
+          a {
+            color: #df4c73;
+            font-size: 0.8rem;
+            @include mediaQuery($break-md) {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+
+      .write-share {
+        margin-left: 2rem;
+        img {
+          width: 90%;
+        }
+        .btn-upload {
+          margin-top: 0.6rem;
+          a {
+            color: #df4c73;
+            font-size: 0.8rem;
+            @include mediaQuery($break-md) {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+
+    .save-btn {
+      @include mediaQuery($break-md) {
+        margin-top: 3rem;
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}

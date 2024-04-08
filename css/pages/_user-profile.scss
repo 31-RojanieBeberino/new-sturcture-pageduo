@@ -1,0 +1,149 @@
+.profile_banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .profile {
+    text-align: center;
+    padding-top: 15rem;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    h4 {
+      text-align: center;
+      background-color: #ffffff;
+      border-radius: 50px;
+      padding: 1rem 1rem;
+      color: #286fb4;
+      font-weight: bold;
+    }
+  }
+
+  .name {
+    h1 {
+      color: #286fb4;
+      font-weight: bold;
+    }
+  }
+}
+
+.my-story {
+  padding: 10rem 10rem;
+  @include mediaQuery($break-md) {
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;
+  }
+  .title-story {
+    @include mediaQuery($break-md) {
+      text-align: center;
+      flex-direction: column;
+    }
+    h1 {
+      font-weight: bold;
+      @include mediaQuery($break-md) {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  a {
+    color: #df4c73;
+    border-bottom: 2px solid #e4b6c2;
+    padding: 0.5rem 0;
+    i {
+      margin-left: 2rem;
+    }
+  }
+  .story {
+    text-align: center;
+    padding: 1rem 4rem;
+    max-height: 80vh;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    @include mediaQuery($break-md) {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+    .images {
+      img {
+        width: 60%;
+      }
+    }
+
+    .content {
+      text-align: left;
+      margin-left: -5rem;
+      @include mediaQuery($break-md) {
+        margin: 0;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        @include mediaQuery($break-md) {
+          font-size: 2rem;
+          margin-top: 2rem;
+        }
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h4 {
+        font-size: 1rem;
+        color: #286fb4;
+        margin-top: 2rem;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h6 {
+        font-weight: bold;
+      }
+    }
+
+    .read-icon {
+      margin-top: 1rem;
+      i {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  .button {
+    .btn-upload {
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+
+    .btn-delete {
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        i {
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.btn1 a {
+  color: red($color: #000000);
+}

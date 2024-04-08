@@ -1,0 +1,215 @@
+.book_banner {
+  background-image: url("../../images/Group\ 123.webp");
+  height: 80vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.read-books {
+  margin-top: -15rem;
+  z-index: -9999;
+
+  padding: 2rem 4rem;
+  @include mediaQuery($break-md) {
+    padding: 0 1rem;
+  }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: #ffff;
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    @include mediaQuery($break-md) {
+      grid-template-columns: 1fr;
+      padding: 2rem 1rem;
+    }
+    .images {
+      @include mediaQuery($break-md) {
+        text-align: center;
+      }
+      img {
+        width: 70%;
+      }
+    }
+
+    .content {
+      h1 {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      h5 {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .read-icon {
+        i {
+          margin-right: 2rem;
+          font-size: 0.9rem;
+        }
+      }
+
+      .social-icon {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        h2 {
+          font-size: 1rem;
+          color: #286fb4;
+        }
+        i {
+          color: #286fb4;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    .content-side {
+      i {
+        color: #286fb4;
+        font-size: 1rem;
+      }
+      h4 {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 5rem;
+      }
+      a {
+        color: #df4c73;
+        border-bottom: 2px solid #e4b6c2;
+        padding: 0.5rem 0;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  .text {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .button {
+    justify-content: space-between;
+    margin-top: 2rem;
+    @include mediaQuery($break-md) {
+      flex-direction: column;
+    }
+    a {
+      color: #df4c73;
+      border-bottom: 2px solid #e4b6c2;
+      padding: 0.5rem 0;
+      text-transform: uppercase;
+      i {
+        margin-left: 1rem;
+      }
+    }
+    .social-icon {
+      @include mediaQuery($break-md) {
+        margin-top: 2rem;
+        text-align: center;
+      }
+      i {
+        margin-right: 1rem;
+        @include mediaQuery($break-md) {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.comment {
+  background-image: url("../../images/Path\ 206.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 13rem;
+
+  @include mediaQuery($break-md) {
+    padding: 10rem 1rem;
+    margin-bottom: 15rem;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  input {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  &__wrapper {
+    overflow-y: auto;
+    max-height: 300px;
+    .content {
+      margin-top: 2rem;
+
+      .profile {
+        .p-file {
+          margin-right: 1rem;
+          @include mediaQuery($break-md) {
+            width: 100%;
+            margin-right: 0;
+          }
+        }
+
+        .text {
+          @include mediaQuery($break-md) {
+            margin-right: 2rem;
+          }
+          h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+          }
+          p {
+            margin-bottom: 0.5rem;
+          }
+          .reply {
+            span {
+              color: #797273;
+              margin-right: 1rem;
+              font-size: 0.9rem;
+            }
+            h5 {
+              font-weight: bold;
+              color: #286fb4;
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+
+    .icon-side {
+      margin-right: 8rem;
+      @include mediaQuery($break-md) {
+        margin-right: 0;
+      }
+    }
+  }
+  a {
+    color: #df4c73;
+    border-bottom: 2px solid #e4b6c2;
+    padding: 0.5rem 0;
+    text-transform: uppercase;
+    i {
+      margin-left: 1rem;
+    }
+  }
+}
