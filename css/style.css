@@ -1268,8 +1268,8 @@ h2.user-page-title.notification-title {
   width: 70% !important;
 }
 
-.test-page h1 {
-  color: red;
+.testPage h1 {
+  background: red;
 }
 
 /*# sourceMappingURL=style.css.map */
