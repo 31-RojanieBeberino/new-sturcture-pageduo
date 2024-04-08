@@ -1300,4 +1300,13 @@ img.customize-page.user-profile-img {
   height: 100%;
 }
 
+input.btn-add-details.create-post-page-btn.btn.btn-primary {
+  width: 15%;
+  margin-left: 155px;
+}
+
+.paid-membership-filter.post-items-list {
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */

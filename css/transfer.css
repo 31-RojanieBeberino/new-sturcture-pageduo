@@ -62,7 +62,7 @@ section.homepage.social-media-section.p-5.pe-3.ps-3.mt-5 {
     font-size: 1rem;
     color: white;
 }
-.about_banner {
+.about_banner, .narrate_banner {
     background-image: url('../../images/Group 123.webp');
     height: 80vh;
     background-size: 100% 100%;
@@ -76,7 +76,7 @@ header {
     top: 0;
     z-index: 9999;
 }
-.about_banner h1 {
+.about_banner h1, .narrate_banner h1 {
     text-align: center;
     color: #286fb4;
     font-size: 5rem;
@@ -352,8 +352,8 @@ a {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     margin-bottom: 2rem;
 }
-.Episode__wrapper .story .images img {
-    width: 60%;
+.Episode__wrapper .story .imageSs img {
+    width: 75%;
 }
 .Episode__wrapper .story .content h1 {
     font-weight: bold;
@@ -492,10 +492,27 @@ h1.upload-docmunent-title {
 }
 .profile_banner h1 {
     text-align: center;
-    padding-top:15rem;
     color: #286fb4;
     font-size: 5rem;
     font-weight: bold;
+}
+.profile_banner span, .profile_banner p {
+  text-align: center;
+  width: 100%;
+}
+
+.profile_banner h6 {
+    color: #286fb4;
+    font-size: 2rem;
+    font-weight: 800;
+    background: #fff;
+    border-radius: 50%;
+    padding: 30px;
+}
+.user-profile_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .prof-text h1 {
     font-size: 25px;
@@ -1439,8 +1456,8 @@ button.active {
   
   #volumeSlider::-webkit-slider-thumb {
     appearance: none;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     background: red;
     border-radius: 50%;
     cursor: pointer;
@@ -1450,7 +1467,47 @@ button.active {
     background: transparent;
     border: 0;
   }
+
+  .landing_banner {
+  background-image: url('../../images/Group 123.webp');
+  height: 50vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.landing-page-form__wrapper .images img {
+  width: 80%;
+  height: 90%;
+}
+
+.landing-page-form__wrapper .landing-side h1 {
+  font-size: 3rem;
+  color: #286fb4;
+  text-align: center;
+}
   
+.landing-page-form__wrapper .landing-side .landing-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.landing-page-form__wrapper .landing-side .landing-btn .btn-1 button {
+  padding: 1rem 5rem;
+  background-color: #3c91ec;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.landing-page-form__wrapper .landing-side .landing-btn .btn-2 button {
+  padding: 1rem 6rem;
+  background-color: #286fb4;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
   /*# sourceMappingURL=style.css.map */
   
 /* Transfer the style from ralph into this site */
