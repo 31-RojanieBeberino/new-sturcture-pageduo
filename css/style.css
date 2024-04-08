@@ -1296,4 +1296,8 @@ img.card-img-top {
   object-fit: contain;
 }
 
+img.customize-page.user-profile-img {
+  height: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
