@@ -1309,4 +1309,51 @@ input.btn-add-details.create-post-page-btn.btn.btn-primary {
   margin: 0;
 }
 
+
+.settings-section h2, .subscribing-section h2, .listener-section h2 {
+  font-family: "Sharp Sans";
+  font-size: 45px;
+  font-weight: 900;
+  color: #37B6FF;
+}
+p.listerner-title {
+  width: 100%;
+}
+.listener-body .card-cOl1 img {
+  width: 100%;
+}
+.listener-body .card-player {
+  background: #008CDC;
+  border-radius: 10px;
+  margin-left: -20px;
+}
+#volumeSlider {
+  width: 100%;
+  appearance: none;
+  background: #fff;
+  height: 10px;
+  border-radius: 5px;
+}
+#volumeSlider::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controls button {
+  background: transparent;
+  border: 0;
+}
+.icon-icons img {
+  width: 30%;
+}
+.icon-icons h6, .icon-icons p, .card-player-body h3, .card-player-body p {
+  color: #fff;
+}
+.icon-icons h6, .icon-icons p, .card-player-body h3, .card-player-body p {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
