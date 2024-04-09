@@ -8,6 +8,9 @@
 .navbar-menu ul li {
     margin: 0;
 }
+li {
+    margin-right: 0;
+}
     
 }
 /* end of NavBar */
