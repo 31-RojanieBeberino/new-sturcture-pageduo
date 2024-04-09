@@ -1,6 +1,10 @@
-@media(min-width: 1200px){
-    .container{
-        max-width: 1280px;
-        background: red;
+/* RESPONSIVENESS */
+
+/* NavBar */
+@media (max-width: 1440px) {
+.navbar-brand.col-2 {
+    border: 2px solid red;
+    margin-right: 0;
     }
 }
+/* end of NavBar */
