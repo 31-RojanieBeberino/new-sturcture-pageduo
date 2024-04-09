@@ -15,7 +15,9 @@
  }
 }
 @media (max-width: 1440px) {
- 
+.footer-list-col.col-5.d-flex.flex-column.gap-3 {
+    width: 30%;
+ }
 }
 @media (max-width: 1199px) {
 ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
@@ -83,7 +85,8 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .social-med-content h2 {
     font-size: 30px;
  }
- .social-med-content p, .news-letter-section p, .form-news-letter input[type=text], .footer-list-col a {
+ .social-med-content p, .news-letter-section p, .form-news-letter input[type=text], .footer-list-col a,
+ .user-banner-details p, .title-text p {
     font-size: 15px;
  }
  .news-letter-section h2 {
@@ -92,12 +95,33 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  input.btn.btn-primary.p-3 {
     padding: 5px !important;
  }
+ .form-control {
+    padding: 10px !important;
+ }
  .footer-social-icon img {
     width: 40px;
     height: 40px;
  }
  .footer-list-col h4 {
     font-size: 20px;
+ }
+ .user-profile-img {
+    width: 70%;
+    height: 100px;
+ }
+ .user-banner-details h2 {
+    font-size: 30px;
+ }
+ .all-payout-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .subscript-section.col-3.pt-5, .all-payout-inner-sec.col-9.d-flex.flex-column.gap-4 {
+    width: 100%;
+ }
+ .subs h1, .narr h1, .title-text h2 {
+    font-size: 35px;
  }
 }
 
