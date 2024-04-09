@@ -1,0 +1,13 @@
+/* RESPONSIVENESS */
+
+/* NavBar */
+@media (max-width: 1440px) {
+.navbar-brand.col-2 {
+    margin-right: 0;
+}
+.navbar-menu ul li {
+    margin: 0;
+}
+    
+}
+/* end of NavBar */
