@@ -1,13 +1,18 @@
 /* RESPONSIVENESS */
 
-/* NavBar */
 @media (max-width: 1920px) {
 .navbar-brand.col-2 {
-    margin-right: 0;
-    }
+    margin-right: 0 !important;
+ }
 .navbar-menu ul li {
-    margin-right: 0;
-    }   
+    margin-right: 0 !important;
+ }
+    .nav-profile.col-2.d-flex.align-items-center.gap-2 {
+        padding: 0 !important;
+ }
+    .navbar-brand img {
+    width: 110px !important;
+ }
 }
 @media (max-width: 1440px) {
  
@@ -15,9 +20,84 @@
 @media (max-width: 1199px) {
 ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
     gap: 20px !important;
-    }
+ }
 .user-name h4 {
     font-size: 14px;
-    }
+ }
 }
-/* end of NavBar */
+@media (max-width: 1024px) {
+    .navbar-brand.col-2 {
+    margin-right: 0 !important;
+    padding: 0 !important;
+    max-width: 13%;
+ }
+ .user-name.d-flex.flex-column.gap-1 p {
+    width: 100%;
+ }
+}
+
+@media (max-width: 768px) {
+.navbar-menu a, .user-name h4 {
+    font-size: 13px;
+ }
+.user-name p {
+    font-size: 9px;
+ }
+nav.container.d-flex.align-items-center.gap-4.p-3 {
+    gap: 30px !important;
+ }
+.about_banner h1, .narrate_banner h1 {
+    font-size: 3rem;
+ }
+.about_banner, .narrate_banner {
+    height: 60vh;
+ }
+.about-pageduo__wrapper .content h1, .values h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem !important;
+ }
+.values__wrapper h2 {
+    font-size: 1rem;
+ }
+ .about-pageduo__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-pageduo__wrapper p {
+    width: 100%;
+ }
+ .about-pageduo__wrapper .images {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+ }
+ .values {
+    padding: 8rem 0;
+ }
+ .title-header {
+    font-size: 25px;
+ }
+ .social-med-content h2 {
+    font-size: 30px;
+ }
+ .social-med-content p, .news-letter-section p, .form-news-letter input[type=text], .footer-list-col a {
+    font-size: 15px;
+ }
+ .news-letter-section h2 {
+    font-size: 30px;
+ }
+ input.btn.btn-primary.p-3 {
+    padding: 5px !important;
+ }
+ .footer-social-icon img {
+    width: 40px;
+    height: 40px;
+ }
+ .footer-list-col h4 {
+    font-size: 20px;
+ }
+}
+
