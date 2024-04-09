@@ -4,13 +4,17 @@
 @media (max-width: 1440px) {
 .navbar-brand.col-2 {
     margin-right: 0;
-}
+ }
 .navbar-menu ul li {
-    margin: 0;
-}
-li {
     margin-right: 0;
+ }    
 }
-    
+@media (max-width: 1199px) {
+ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
+    gap: 20px !important;
+ }
+.user-name h4 {
+    font-size: 14px;
+ }
 }
 /* end of NavBar */
