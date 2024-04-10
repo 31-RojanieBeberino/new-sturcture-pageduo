@@ -116,6 +116,11 @@ body {
  .footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
   width: 30%;
 }
+
+h4.withAfter:after, h4.OrderAfter:after {
+  left: 300px !important;
+  width: 37% !important;
+ }
 }
 @media (max-width: 1199px) {
 ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
@@ -130,13 +135,29 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
     margin-right: 0 !important;
     padding: 0 !important;
     max-width: 13%;
- }
+  }
  .user-name.d-flex.flex-column.gap-1 p {
     width: 100%;
- }
- .user-banner-details h2, .title-text h2, .subscript-section h2 {
+  }
+ .user-banner-details h2, .title-text h2, .subscript-section h2, section.subscribing-section h2 {
     font-size: 30px;
+  }
+ .cOLs2 h3 {
+  padding: 20px !important;
+  }
+  .cOLs2 {
+    height: 430px !important;
  }
+  h4.withAfter:after {
+    left: 250px !important;
+    top: 390px !important;
+    width: 25% !important;
+  }
+  h4.OrderAfter:after {
+    left: 250px !important;
+    top: 655px !important;
+    width: 25% !important;
+  }
  .subs h1, .narr h1 {
     font-size: 30px;
  }
@@ -145,6 +166,9 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
  }
  .top-contents a {
     padding: 10px;
+ }
+ div#card {
+  flex-wrap: wrap;
  }
  #card .card {
   width: 100% !important;
@@ -237,6 +261,23 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  }
  .social-sec-img.col-sm-6 {
   width: 45%;
+ }
+ .subscribing-container.d-flex.gap-5.w-100 {
+  flex-wrap: wrap;
+ }
+ .cOLs1 {
+  width: 100% !important;
+ }
+ h4.withAfter:after {
+  top: 380px !important;
+  width: 56% !important;
+ }
+h4.OrderAfter:after {
+  top: 645px !important;
+  width: 56% !important;
+ }
+ .form-control {
+  padding: 150px !important;
  }
 }
 @media (max-width: 425px) {
@@ -350,15 +391,24 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
   width: 100%;
  }
+ .post-items-list {
+  padding: 20px 0;
+ }
 }
 @media (max-width: 375px) {  
  .pivot-trigger {
   left: 320px;
+ }
+ .banner-image-set {
+  right: 100px;
  }
 }
 @media (max-width: 320px) {  
   .pivot-trigger {
    left: 250px;
   }
+  .banner-image-set {
+    right: 60px;
+ }
  }
 

@@ -6,13 +6,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 0.5rem;
-}
-
 .read-listen h1 {
     font-weight: bold;
     font-size: 3rem;
