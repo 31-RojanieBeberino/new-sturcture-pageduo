@@ -295,15 +295,6 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .top-contents.d-flex.align-items-center {
    flex-wrap: wrap !important;
  }
- .title-text.col-10 {
-   width: 100%;
- }
- .social-med-content h2 {
-   width: 240% !important;
- }
- .title-text.col-10 p, a.btn.btn-primary.col-2 {
-   width: 100%;
- }
  .list-title h3 {
    font-size: 13px !important;
  }
@@ -312,6 +303,30 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  }
  .payouts-list-card.p-5.d-flex.flex-column.gap-3 {
    padding: 15px !important;
+ }
+ 
+.social-med-content.col-sm-6.d-flex.flex-column.justify-content-center.gap-3 p, .social-med-content h2,
+.social-med-content h5 {
+  width: 100%;
+  text-align: center;
+ }
+ .top-footer.container.d-flex.p-5.pe-3.ps-3 {
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+ }
+ form.form-news-letter.d-flex.align-items-center.gap-4 {
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+ .footer-social-icon.col-sm-4.d-flex.gap-3, .footer-list-col.col-sm-2.d-flex.flex-column.gap-3,
+ .footer-list-col.col-sm-3.d-flex.flex-column.gap-3,.footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
+  justify-content: center;
+  text-align: center;
+ }
+ .form-news-letter input[type=text], .form-news-letter input[type=submit],
+ a.btn.btn-primary.col-2 {
+  width: 100%;
  }
 }
 
