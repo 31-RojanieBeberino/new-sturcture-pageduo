@@ -246,10 +246,6 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .nav-profile.col-2.d-flex.align-items-center.gap-2 {
    width: 30%;
  }
-.user-profile-img {
-   width: 60%;
-   height: 80px;
- }
 .user-banner-details h2 {
    font-size: 25px;
  }
@@ -266,10 +262,15 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .user-banner-details.d-flex.flex-column.align-items-start {
    align-items: center !important;
  }
- .user-profile-sm-img {
-   width: 25px;
-   height: 25px;
-   margin-bottom: -10px;
+ section.main-banner-section.d-flex.justify-content-center.p-5.pe-3.ps-3 {
+   padding-bottom: 100px !important;
+ }
+ .banner-image-set {
+   bottom: -70px;
+   right: 120px;
+ }
+ .user-banner-details.d-flex.flex-column.align-items-start p {
+   text-align: center;
  }
 }
 

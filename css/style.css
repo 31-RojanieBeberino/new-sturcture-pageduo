@@ -1356,4 +1356,7 @@ p.listerner-title {
 .icon-icons h6, .icon-icons p, .card-player-body h3, .card-player-body p {
   color: #fff;
 }
+.top-bar-header.container.d-flex.justify-content-end.align-items-center.gap-3 {
+  justify-content: flex-start !important;
+}
 /*# sourceMappingURL=style.css.map */
