@@ -36,7 +36,7 @@ body {
    position: absolute;
    height: 40px;
    width: 40px;
-   left: 190px;
+   left: 365px;
    top: 95px;
    z-index: 20;
    cursor: pointer;
@@ -95,7 +95,7 @@ body {
    padding: 150px !important;
  }
  li.item {
-   font-size: 30px;
+   font-size: 20px;
    list-style: none !important;
  }
 @media (max-width: 1920px) {
@@ -244,8 +244,9 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
     justify-content: space-between;
  }
  .nav-profile.col-2.d-flex.align-items-center.gap-2 {
-   width: 30%;
+   display: none !important;
  }
+ 
 .user-banner-details h2 {
    font-size: 25px;
  }
@@ -271,6 +272,46 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  }
  .user-banner-details.d-flex.flex-column.align-items-start p {
    text-align: center;
+ }
+ .values {
+   padding: 3rem 0;
+ }
+ .values__wrapper {
+   grid-template-columns: none;
+ }
+ .book-image img {
+   height: 400px;
+   object-fit: cover;
+ }
+ .inner-social-med.container.d-flex.gap-5 {
+   flex-wrap: wrap;
+ }
+ section.social-media-section.p-5.pe-3.ps-3.mt-5 {
+   padding: 50px 20px !important;
+ }
+ .social-media-section {
+  border-radius: 0;
+ }
+ .top-contents.d-flex.align-items-center {
+   flex-wrap: wrap !important;
+ }
+ .title-text.col-10 {
+   width: 100%;
+ }
+ .social-med-content h2 {
+   width: 240% !important;
+ }
+ .title-text.col-10 p, a.btn.btn-primary.col-2 {
+   width: 100%;
+ }
+ .list-title h3 {
+   font-size: 13px !important;
+ }
+ .payout-list-item p {
+   font-size: 8px !important;
+ }
+ .payouts-list-card.p-5.d-flex.flex-column.gap-3 {
+   padding: 15px !important;
  }
 }
 
