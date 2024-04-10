@@ -113,13 +113,21 @@ body {
  }
 }
 @media (max-width: 1440px) { 
+  section.contact-form.py--5 .container {
+    padding: 50px 20px;
+ }
  .footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
   width: 30%;
 }
 
-h4.withAfter:after, h4.OrderAfter:after {
+h4.withAfter:after {
   left: 300px !important;
   width: 37% !important;
+ }
+ h4.OrderAfter:after {
+  width: 37% !important;
+  left: 300px !important;
+  top: 655px !important;
  }
 }
 @media (max-width: 1199px) {
@@ -155,7 +163,7 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
   }
   h4.OrderAfter:after {
     left: 250px !important;
-    top: 655px !important;
+    top: 635px !important;
     width: 25% !important;
   }
  .subs h1, .narr h1 {
@@ -226,14 +234,32 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .user-banner-details p, .title-text p {
     font-size: 15px;
  }
- .news-letter-section h2 {
+ .news-letter-section h2, .content h1 {
     font-size: 30px;
+    text-align: center;
  }
  input.btn.btn-primary.p-3 {
     padding: 5px !important;
  }
+ .cOLs2,.content p.mb-4,
+ .contact-form__wrapper .content form input,
+ .contact-form__wrapper .content form textarea {
+  width: 100%;
+  margin: 0;
+ }
+ .content h1 {
+  margin-left: 0 !important;
+ }
+ .content form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
  .form-control {
     padding: 10px !important;
+ }
+ .contact-form__wrapper {
+  grid-template-columns: 1fr;
  }
  .footer-social-icon img {
     width: 40px;
@@ -269,15 +295,18 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
   width: 100% !important;
  }
  h4.withAfter:after {
-  top: 380px !important;
+  top: 360px !important;
   width: 56% !important;
  }
 h4.OrderAfter:after {
-  top: 645px !important;
+  top: 606px !important;
   width: 56% !important;
  }
- .form-control {
-  padding: 150px !important;
+ .cOLs1-cols input#exampleInputEmail1, .form-control {
+  padding: 15px !important;
+ }
+ .clBTN {
+  padding: 10px 20px !important;
  }
 }
 @media (max-width: 425px) {
@@ -393,6 +422,28 @@ h4.OrderAfter:after {
  }
  .post-items-list {
   padding: 20px 0;
+ }
+ section.subscribing-section h2 {
+  font-size: 25px;
+ }
+ h4.withAfter:after, h4.OrderAfter:after {
+  display: none;
+  }
+ .cOLsS1.roWs.d-flex.justify-content-between h6 {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+ }
+ h6.qly {
+  margin: 0;
+ }
+ .cL.btn.d-flex.justify-content-between\=.gap-5 {
+  flex-wrap: wrap;
+  gap: 10px !important;
+ }
+ .cOLs1.p-5 {
+  padding: 20px !important;
  }
 }
 @media (max-width: 375px) {  
