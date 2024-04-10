@@ -339,5 +339,6 @@
     }
     .post-items-list p {
         width: 100%;
+        text-align: center;
     }
 }

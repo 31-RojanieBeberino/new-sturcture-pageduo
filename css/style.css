@@ -1308,5 +1308,21 @@ input.btn-add-details.create-post-page-btn.btn.btn-primary {
 .paid-membership-filter.post-items-list {
   margin: 0;
 }
+img.customize-page.user-profiles-img {
+  height: 100%;
+}
+.cp img.user-profiles-img {
+  background: #707070;
+}
+.user-profiles .user-profile-img {
+  width: 200px;
+  padding: 10px 10px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.customize-page.create-post.mini-img {
+  top: 370px !important;
+  left: 560px;
+}
 
 /*# sourceMappingURL=style.css.map */

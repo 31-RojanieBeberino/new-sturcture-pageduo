@@ -137,6 +137,9 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
 .user-name h4 {
     font-size: 14px;
  }
+ .customize-page.create-post.mini-img.d-flex.align-items-center.justify-content-center.flex-column {
+  left: 320px;
+ }
 }
 @media (max-width: 1024px) {
     .navbar-brand.col-2 {
@@ -180,6 +183,23 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
  }
  #card .card {
   width: 100% !important;
+ }
+ .create-post.mini-img.d-flex.align-items-center.justify-content-center.flex-column {
+  left: 45px;
+ }
+ .create-post.mini-img.d-flex.align-items-center.justify-content-center.flex-column {
+  left: 33px;
+  top: 20px !important;
+ }
+ .form-banner {
+  padding: 150px 250px;
+ }
+ input.btn-add-details.create-post-page-btn.btn.btn-primary {
+  width: 30%;
+ }
+div#create-POST {
+  top: 40px !important;
+  left: 40px;
  }
 }
 
@@ -308,6 +328,13 @@ h4.OrderAfter:after {
  .clBTN {
   padding: 10px 20px !important;
  }
+ .btn-add-details button, .publish-page button.btn.btn-light {
+  width: 200px;
+  font-size: 17px;
+ }
+ .form-banner {
+  padding: 150px 130px;
+ }
 }
 @media (max-width: 425px) {
 .dropdown-container {
@@ -348,6 +375,7 @@ h4.OrderAfter:after {
  }
  .user-banner-details.d-flex.flex-column.align-items-start p {
    text-align: center;
+   width: 100%;
  }
  .values {
    padding: 3rem 0;
@@ -445,6 +473,41 @@ h4.OrderAfter:after {
  .cOLs1.p-5 {
   padding: 20px !important;
  }
+ h1.title {
+  width: 100%;
+  text-align: center;
+ }
+ .btn-add-details button, .publish-page button.btn.btn-light {
+  width: 300px;
+ }
+ .bottom-footer p {
+  font-size: 12px;
+ }
+ input.btn-add-details.create-post-page-btn.btn.btn-danger {
+  width: 300px;
+ }
+ .modal-footer.px-0 {
+  flex-wrap: wrap;
+ }
+ .modal-footer.px-0 button.btn.btn-secondary,
+ .modal-footer.px-0 button.btn-primary {
+  width: 100%;
+ }
+ .input-section.mb-3.d-flex.align-items-start.flex-row {
+  align-items: center !important;
+  justify-content: center;
+ }
+ .customize-page.create-page-upload-text, .customize-page p,
+  .create-page-upload-text p, label.form-label.mb-2.w-100, .ADD-TITLE,
+  .ADD-TAGS, .TELL-STORY, .NAME-OF-PAGE, .PROFILEPHOTO, .PROFILEPHOTo-TXT,
+  .COVER-PHOTO, .COVER-PHOTO-TXT, .WHAT-WE-ARE-CREATING {
+  width: 100% !important;
+  text-align: center;
+ }
+ form#customize-page {
+  gap: 30px !important;
+ }
+ 
 }
 @media (max-width: 375px) {  
  .pivot-trigger {
@@ -453,6 +516,10 @@ h4.OrderAfter:after {
  .banner-image-set {
   right: 100px;
  }
+ .btn-add-details button, .publish-page button.btn.btn-light,
+ input.btn-add-details.create-post-page-btn.btn.btn-danger {
+  width: 250px;
+ }
 }
 @media (max-width: 320px) {  
   .pivot-trigger {
@@ -460,6 +527,10 @@ h4.OrderAfter:after {
   }
   .banner-image-set {
     right: 60px;
+ }
+ .btn-add-details button, .publish-page button.btn.btn-light,
+ input.btn-add-details.create-post-page-btn.btn.btn-danger {
+  width: 200px;
  }
  }
 
