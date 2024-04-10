@@ -38,3 +38,17 @@ function toggleMenu() {
     // Show the default tab on page load
     document.getElementById("tab1").style.display = "block";
     document.getElementsByClassName("tablink")[0].classList.add("active");
+
+    // Function to reload the page
+    function reloadPage() {
+        location.reload(); // Reload the page
+    }
+
+    // Execute when the document (page) is fully loaded
+    jQuery(document).ready(function() {
+        // Attach a resize event listener to the window
+        jQuery(window).resize(function() {
+            // Call the reloadPage function when the window is resized
+            reloadPage();
+        });
+    });
