@@ -1,6 +1,7 @@
 /* RESPONSIVENESS */
 body {
    overflow-x: hidden;
+   border: 10px solid red;
 }
 /* hamburger icon */
 .dropdown-container {
