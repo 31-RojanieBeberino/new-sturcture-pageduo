@@ -1,7 +1,6 @@
 /* RESPONSIVENESS */
 body {
    overflow-x: hidden;
-   border: 10px solid red;
 }
 /* hamburger icon */
 .dropdown-container {
@@ -507,7 +506,34 @@ h4.OrderAfter:after {
  form#customize-page {
   gap: 30px !important;
  }
- 
+ div#pills-tabContent .card-img-top {
+  width: 30%;
+ }
+ div#pills-tabContent .card-body {
+  flex-wrap: wrap;
+ }
+ div#pills-tabContent h3 {
+  text-align: center;
+  font-size: 23px;
+ }
+ .PROFILEPHOTO.create-page-upload-text.mb-3.d-flex.flex-column,
+ .cp.user-profile img.customize-page.user-profile-img {
+  width: 100% !important;
+ }
+ div#customize-PAGE {
+  top: -200px !important;
+  left: 128px;
+ }
+ .form-banner {
+  padding: 150px 170px;
+ }
+ .cp .mini-img {
+  left: -40px;
+ }
+ input.btn-add-details.create-post-page-btn.btn.btn-primary {
+  margin: 0;
+  width: 100%;
+ }
 }
 @media (max-width: 375px) {  
  .pivot-trigger {
@@ -519,6 +545,13 @@ h4.OrderAfter:after {
  .btn-add-details button, .publish-page button.btn.btn-light,
  input.btn-add-details.create-post-page-btn.btn.btn-danger {
   width: 250px;
+ }
+ div#customize-PAGE {
+  top: -170px !important;
+  left: 100px;
+ }
+ .form-banner {
+  padding: 150px 150px;
  }
 }
 @media (max-width: 320px) {  
@@ -532,5 +565,18 @@ h4.OrderAfter:after {
  input.btn-add-details.create-post-page-btn.btn.btn-danger {
   width: 200px;
  }
+ .card-body.d-flex.justify-content-center.align-items-center {
+  flex-direction: column;
  }
+ div#pills-tabContent .child {
+  gap: 0 !important;
+ }
+ div#customize-PAGE {
+  top: -150px !important;
+  left: 73px;
+ }
+ .form-banner {
+  padding: 150px 130px;
+ }
+}
 
