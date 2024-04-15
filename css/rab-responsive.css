@@ -310,7 +310,6 @@
 @media (max-width: 768px) {
     .user-page-inner .btn-add-details button {
         font-size: 16px;
-        background: red;
     }
     a.btn-add-details.create-post-page-btn {
         margin-left: 140px;
