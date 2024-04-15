@@ -352,10 +352,6 @@ h4.OrderAfter:after {
 .user-banner-details h2 {
    font-size: 25px;
  }
- .banner-image-set button {
-   width: 160px;
-   padding: 10px !important;
- }
  .profile-image {
    justify-content: center;
  }
@@ -370,7 +366,7 @@ h4.OrderAfter:after {
  }
  .banner-image-set {
    bottom: -70px;
-   right: 120px;
+   right: 100px;
  }
  .user-banner-details.d-flex.flex-column.align-items-start p {
    text-align: center;
