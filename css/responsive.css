@@ -328,6 +328,13 @@ h4.OrderAfter:after {
  .form-banner {
   padding: 150px 130px;
  }
+ .contact-form {
+  align-items: center;
+ }
+ a.contact-submit-btn {
+  border: 0 !important;
+  margin: 0 !important;
+ }
 }
 @media (max-width: 425px) {
 .dropdown-container {
