@@ -589,6 +589,7 @@ div#customize-PAGE {
  .video-tag {
   margin: 0;
   width: 100%;
+  text-align: center;
  }
  .banner-slider .banner-wrapper .banner-content h2 {
   font-size: 30px;

@@ -373,9 +373,6 @@ a {
     border-radius: 1rem;
     margin-top: -1rem;
 }
-.Episode__wrapper .music .play-button {
-    justify-content: center;
-}
 .Episode__wrapper .music .play-button .play-bar {
     background-color: #fdfdfd;
     height: 5px;
@@ -384,7 +381,6 @@ a {
     width: 70%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    top: 30px;
 }
 .Episode__wrapper .music .play-button img {
     width: 5%;
