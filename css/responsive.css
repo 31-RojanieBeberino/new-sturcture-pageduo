@@ -352,6 +352,17 @@ h4.OrderAfter:after {
  .read-listen h1 {
   font-size: 35px;
  }
+ .landing-page-form__wrapper {
+  flex-wrap: wrap;
+  gap: 50px;
+ }
+ .landing-page-form__wrapper .images img {
+  height: 400px;
+  object-fit: contain;
+ }
+ .landing-page-form__wrapper .landing-side h1 {
+  font-size: 30px;
+ }
 }
 @media (max-width: 425px) {
 .dropdown-container {
@@ -603,6 +614,10 @@ div#customize-PAGE {
  }
  .video-div .status-info {
   flex-direction: column;
+ }
+ .landing-side .btn-1,
+ .landing-side .btn-2 {
+  width: 100%;
  }
 }
 @media (max-width: 375px) {  

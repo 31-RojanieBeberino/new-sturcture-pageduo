@@ -324,9 +324,7 @@ a {
 /* Read book page */
 
 /* Narrate Audio page */
-.Episode {
-    padding: 10rem 10rem;
-}
+
 .Episode h1 {
     text-align: center;
     font-size: 4rem;
@@ -1466,8 +1464,7 @@ button.active {
 }
 
 .landing-page-form__wrapper .images img {
-  width: 80%;
-  height: 90%;
+  width: 100%;
 }
 
 .landing-page-form__wrapper .landing-side h1 {
@@ -1482,20 +1479,14 @@ button.active {
   margin-top: 2rem;
 }
 
-.landing-page-form__wrapper .landing-side .landing-btn .btn-1 button {
-  padding: 1rem 5rem;
+.landing-page-form__wrapper .landing-side .landing-btn .btn-1 button,
+.landing-page-form__wrapper .landing-side .landing-btn .btn-2 button {
+  padding: 15px 40px;
   background-color: #3c91ec;
   color: #ffffff;
   border: none;
   border-radius: 0.5rem;
-}
-
-.landing-page-form__wrapper .landing-side .landing-btn .btn-2 button {
-  padding: 1rem 6rem;
-  background-color: #286fb4;
-  color: #ffffff;
-  border: none;
-  border-radius: 0.5rem;
+  width: 100%;
 }
 
   /*# sourceMappingURL=style.css.map */
