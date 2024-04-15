@@ -552,6 +552,9 @@ h4.OrderAfter:after {
  .form-banner {
   padding: 150px 150px;
  }
+ .banner-image-set button.btn.btn-primary {
+  width: auto;
+ }
 }
 @media (max-width: 320px) {  
   .pivot-trigger {
