@@ -523,6 +523,9 @@ h4.OrderAfter:after {
  .cp.user-profile img.customize-page.user-profile-img {
   width: 100% !important;
  }
+ .cp.user-profile {
+  margin: 0 !important;
+}
 .form.d-flex.flex-column.w-100.gap-5 {
   gap: 0 !important;
 }
