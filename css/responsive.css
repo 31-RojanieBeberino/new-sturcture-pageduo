@@ -112,9 +112,6 @@ body {
  }
 }
 @media (max-width: 1440px) { 
-  section.contact-form.py--5 .container {
-    padding: 50px 20px;
- }
  .footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
   width: 30%;
 }
@@ -333,7 +330,7 @@ h4.OrderAfter:after {
  }
  a.contact-submit-btn {
   border: 0 !important;
-  margin: 0 !important;
+  margin-right: 0 !important;
  }
 }
 @media (max-width: 425px) {
