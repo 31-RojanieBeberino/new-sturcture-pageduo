@@ -263,7 +263,7 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  .content form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
  }
  .form-control {
     padding: 10px !important;
@@ -485,6 +485,7 @@ h4.OrderAfter:after {
  }
  input.btn-add-details.create-post-page-btn.btn.btn-danger {
   width: 300px;
+  padding: 15px;
  }
  .modal-footer.px-0 {
   flex-wrap: wrap;
