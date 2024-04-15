@@ -363,6 +363,9 @@ h4.OrderAfter:after {
  .landing-page-form__wrapper .landing-side h1 {
   font-size: 30px;
  }
+ .listener-col2 .search {
+  margin-bottom: 20px;
+ }
 }
 @media (max-width: 425px) {
 .dropdown-container {
@@ -618,6 +621,33 @@ div#customize-PAGE {
  .landing-side .btn-1,
  .landing-side .btn-2 {
   width: 100%;
+ }
+ .listener-card.d-flex.w-100,
+ .listener-header {
+  flex-wrap: wrap;
+  justify-content: center !important;
+ }
+ .listener-col {
+  text-align: center;
+ }
+ .buttons-roWs {
+  flex-wrap: wrap;
+  justify-content: center !important;
+  gap: 20px;
+ }
+ .listener-body .card-player {
+  margin-top: -20px !important;
+  margin-left: 0 !important;
+ }
+ .card-player {
+  padding: 20px !important;
+ }
+ .player-icons.d-flex.gap-5 {
+  gap: 10px !important;
+ }
+ .player-col {
+  flex-wrap: wrap;
+  gap: 20px;
  }
 }
 @media (max-width: 375px) {  

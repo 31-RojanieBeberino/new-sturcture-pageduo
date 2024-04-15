@@ -1417,6 +1417,7 @@ button.active {
   
   .listener-body .card-cOl1 img {
     width: 100%;
+    height: -webkit-fill-available;
   }
   
   .listener-body .card-player {
