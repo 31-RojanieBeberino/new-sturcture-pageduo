@@ -319,6 +319,7 @@
     }
     .user-page-inner .user-page-title {
         font-size: 25px;
+        text-align: center;
     }
 }
 @media (max-width: 425px) {
