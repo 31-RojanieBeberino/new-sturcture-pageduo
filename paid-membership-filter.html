@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/ralph.css">
     <link rel="stylesheet" href="css/transfer.css">
     <link rel="stylesheet" href="css/rab-responsive.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Paid Membership filter - New Site</title>
 </head>
 <body>
     <header class="main-header">
@@ -24,11 +25,37 @@
             </div>
         </div>
         <navbar class="d-flex justify-content-center align-items-center p3">
-            <nav class=" container d-flex align-items-center gap-4 p-3 justify-content-between">
+            <nav class=" container d-flex align-items-center gap-4 p-3">
                 <div class="navbar-brand col-2">
                     <img src="images/new-logo.png">
                 </div>
-                 <div class="navbar-menu col-8 d-flex align-items-center justify-content-center">
+                <!-- dropdown toggle -->
+                <div class="dropdown-container">
+                  <input type="checkbox" id="pivot"/>  
+                  <label for="pivot" class="pivot-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                  <div class="dropdown-menu-container">
+                    <ul class="menu-items">
+                      <li class="item">
+                        <a href="#">Home</a>
+                      </li>
+                      <li class="item">
+                        <a href="#">Portfolio</a>
+                      </li>
+                          <li class="item">
+                        <a href="#">About</a>
+                      </li>
+                          <li class="item">
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /dropdown toggle -->
+                <div class="navbar-menu col-8 d-flex align-items-center justify-content-center">
                     <ul class="d-flex align-items-center gap-5 justify-content-center m-0">
                         <li><a href="#">ABOUT US</a></li>
                         <li><a href="#">BOOKS & AUTHORS</a></li>
@@ -36,9 +63,9 @@
                         <li><a href="#">CONTACT US</a></li>
                     </ul>
                 </div>
-                <div class="nav-profile col-2 d-flex align-items-center gap-3">
-                    <img class="col-3" src="images/pexels-spencer-selover-775358.png">
-                    <div class="user-details col-9 form-control">
+                <div class="nav-profile col-2 d-flex align-items-center gap-2">
+                    <img class="rab profile-img" src="images/pexels-spencer-selover-775358.png">
+                    <div class="rab user-details">
                         <div class="user-name d-flex flex-column gap-1">
                             <h4 class="m-0">John Bravo</h4>
                             <p class="m-0">View as a user</p>
@@ -53,7 +80,7 @@
     <section class="main-banner-section d-flex justify-content-center p-5 pe-3 ps-3">
         <div class="banner-user container">
             <div class="banner-user-details d-flex flex-column gap-5">
-                <div class="profile-image d-flex align-items-end">
+                <div class="profile-image d-flex align-items-end" style="padding-top: 150px;">
                     <img class="user-profile-img pb-0" src="images/User-Profile-PNG.png">
                     <div class="user-profile-sm-img d-flex justify-content-center align-items-center">
                         <img src="images/picture-svgrepo-com.png">
@@ -111,8 +138,8 @@
                 </li>
             </ul>
             <!-- Posts tab -->
-            <div class="dropdown-list d-flex justify-content-between flex-row align-items-center w-100">
-                <div class="dropdown d-flex gap-2">
+            <div class="dropdown-list d-flex justify-content-between flex-row align-items-center w-100 flex-wrap">
+                <div class="dropdown d-flex gap-2 flex-wrap">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         Subscriptions
                     </button>
@@ -139,7 +166,115 @@
                         <h1 style="color: #37B6FF;">Latest posts</h1>
                         <img src="images/arrow.png" alt="" height="30px">
                     </div>
-                    <div id="card" class="paid-membership-filter post-items-list" style="box-shadow: none;">
+                    <div id="card" class="paid-membership-filter post-items-list d-flex flex-wrap justify-content-center align-items-center" style="box-shadow: none;">
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-12-psd_6eac099e-8188-41e1-a3fc-8d2c4a337af9_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Destiny</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-christina-morillo-1181742.png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-04-psd_87247cb5-236e-4fbc-aaeb-9b07a49e4526_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Blew in the Wind</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-spencer-selover-775358.png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-03-psd_2f236933-e667-478a-92ad-a2ca09e71876_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Pyramid</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-italo-melo-2379004 (2).png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-12-psd_6eac099e-8188-41e1-a3fc-8d2c4a337af9_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Destiny</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-christina-morillo-1181742.png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-04-psd_87247cb5-236e-4fbc-aaeb-9b07a49e4526_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Blew in the Wind</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-spencer-selover-775358.png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 25rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="images/book-cover-03-psd_2f236933-e667-478a-92ad-a2ca09e71876_large (1).png" class="card-img-top" alt="">
+                                <div class="title-content d-flex flex-column">
+                                    <h3>Pyramid</h3>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
+                                        <img src="images/pexels-italo-melo-2379004 (2).png" alt="">
+                                        <p class="m-0" style="width: 70px;">Story by:</p>
+                                        <h4 style="width: 100px;">Jane Doe</h4>
+                                    </div>
+                                    <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
+                                        <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
+                                        <p class="m-0" style="width: 10px;">|</p>
+                                        <p class="m-0" style="width: 120px;">100 Subscriber</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="card" style="width: 25rem;">
                             <div class="card-body d-flex justify-content-center align-items-center">
                                 <img src="images/book-cover-12-psd_6eac099e-8188-41e1-a3fc-8d2c4a337af9_large (1).png" class="card-img-top" alt="">
@@ -195,129 +330,15 @@
                             </div>
                         </div>
                    </div>
-                   
-                   <div id="card" class="paid-membership-filter post-items-list" style="box-shadow: none;">
-                    <div class="card" style="width: 25rem;">
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <img src="images/book-cover-12-psd_6eac099e-8188-41e1-a3fc-8d2c4a337af9_large (1).png" class="card-img-top" alt="">
-                            <div class="title-content d-flex flex-column">
-                                <h3>Destiny</h3>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                    <img src="images/pexels-christina-morillo-1181742.png" alt="">
-                                    <p class="m-0" style="width: 70px;">Story by:</p>
-                                    <h4 style="width: 100px;">Jane Doe</h4>
-                                </div>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                    <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                    <p class="m-0" style="width: 10px;">|</p>
-                                    <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <img src="images/book-cover-04-psd_87247cb5-236e-4fbc-aaeb-9b07a49e4526_large (1).png" class="card-img-top" alt="">
-                            <div class="title-content d-flex flex-column">
-                                <h3>Blew in the Wind</h3>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                    <img src="images/pexels-spencer-selover-775358.png" alt="">
-                                    <p class="m-0" style="width: 70px;">Story by:</p>
-                                    <h4 style="width: 100px;">Jane Doe</h4>
-                                </div>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                    <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                    <p class="m-0" style="width: 10px;">|</p>
-                                    <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 25rem;">
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <img src="images/book-cover-03-psd_2f236933-e667-478a-92ad-a2ca09e71876_large (1).png" class="card-img-top" alt="">
-                            <div class="title-content d-flex flex-column">
-                                <h3>Pyramid</h3>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                    <img src="images/pexels-italo-melo-2379004 (2).png" alt="">
-                                    <p class="m-0" style="width: 70px;">Story by:</p>
-                                    <h4 style="width: 100px;">Jane Doe</h4>
-                                </div>
-                                <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                    <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                    <p class="m-0" style="width: 10px;">|</p>
-                                    <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-
-               <div id="card" class="paid-membership-filter post-items-list" style="box-shadow: none;">
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <img src="images/book-cover-12-psd_6eac099e-8188-41e1-a3fc-8d2c4a337af9_large (1).png" class="card-img-top" alt="">
-                        <div class="title-content d-flex flex-column">
-                            <h3>Destiny</h3>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                <img src="images/pexels-christina-morillo-1181742.png" alt="">
-                                <p class="m-0" style="width: 70px;">Story by:</p>
-                                <h4 style="width: 100px;">Jane Doe</h4>
-                            </div>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                <p class="m-0" style="width: 10px;">|</p>
-                                <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <img src="images/book-cover-04-psd_87247cb5-236e-4fbc-aaeb-9b07a49e4526_large (1).png" class="card-img-top" alt="">
-                        <div class="title-content d-flex flex-column">
-                            <h3>Blew in the Wind</h3>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                <img src="images/pexels-spencer-selover-775358.png" alt="">
-                                <p class="m-0" style="width: 70px;">Story by:</p>
-                                <h4 style="width: 100px;">Jane Doe</h4>
-                            </div>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                <p class="m-0" style="width: 10px;">|</p>
-                                <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <img src="images/book-cover-03-psd_2f236933-e667-478a-92ad-a2ca09e71876_large (1).png" class="card-img-top" alt="">
-                        <div class="title-content d-flex flex-column">
-                            <h3>Pyramid</h3>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 p-0 m-0">
-                                <img src="images/pexels-italo-melo-2379004 (2).png" alt="">
-                                <p class="m-0" style="width: 70px;">Story by:</p>
-                                <h4 style="width: 100px;">Jane Doe</h4>
-                            </div>
-                            <div class="child d-flex flex-row justify-content-center align-items-center gap-3 pt-3 m-0">
-                                <p class="m-0 p-0" style="width: 80px;">45 Blocks</p>
-                                <p class="m-0" style="width: 10px;">|</p>
-                                <p class="m-0" style="width: 120px;">100 Subscriber</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-           </div>    
-        </div>
                     <!-- Collections -->
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="test d-flex flex-row align-items-center gap-5">
                         <h1 style="color: #37B6FF;">All Subscriptions tiers</h1>
                     </div>
-                    <div class="CardParent">
+                <div class="CardParent">
                     <div class="RowGap d-flex flex-column justify-content-center align-items-center gap-3">
-                        <div class="cardParent d-flex flex-row gap-3">
+                        <div class="cardParent d-flex justify-content-center align-items-center gap-3 flex-wrap">
                             <div id="collections" class="card" style="width: 25rem; border: 1px solid transparent;">
                                 <div class="card-body d-flex flex-column justify-content-center align-items-center px-0">
                                     <div class="topContainer d-flex justify-content-center align-items-center col-12">
@@ -426,9 +447,6 @@
                                         </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="cardParent d-flex flex-row gap-3">
                             <div id="collections" class="card" style="width: 25rem; border: 1px solid transparent;">
                                 <div class="card-body d-flex flex-column justify-content-center align-items-center px-0">
                                     <div class="topContainer d-flex justify-content-center align-items-center col-12">
@@ -537,9 +555,6 @@
                                         </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="cardParent d-flex flex-row gap-3">
                             <div id="collections" class="card" style="width: 25rem; border: 1px solid transparent;">
                                 <div class="card-body d-flex flex-column justify-content-center align-items-center px-0">
                                     <div class="topContainer d-flex justify-content-center align-items-center col-12">
@@ -651,69 +666,90 @@
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
                 
         <!-- Template -->
     </section>
 
 
-    <section class="social-media-section p-5 pe-3 ps-3 mt-5">
-        <div class="inner-social-med container d-flex gap-5">
-            <div class="social-med-content col-6 d-flex flex-column justify-content-center gap-3">
-                <h2>Follow on <span>Social Media</span></h2>
-                <p>“PageDuo is the most creative way to promote your writings.”</p>
-                <h5>C. Joseph</h5>
-            </div>
-            <div class="social-sec-img col-6">
-                <img class="pb-3" src="images/social-img.webp">
-            </div>
+   <!-- FOOTER SECTION -->
+   <section class="social-media-section p-5 pe-3 ps-3 mt-5">
+    <div class="inner-social-med container d-flex gap-5">
+        <div class="social-med-content col-sm-6 d-flex flex-column justify-content-center gap-3">
+            <h2>Follow on <span>Social Media</span></h2>
+            <p>“PageDuo is the most creative way to promote your writings.”</p>
+            <h5>C. Joseph</h5>
         </div>
-    </section>
-
-
-    <section class="news-letter-section container d-flex flex-column gap-4 p-5 pe-3 ps-3">
-        <h2>Join our Newsletter</h2>
-        <p>Signup to be the first to hear about exclusive deals, special offers and upcoming collections</p>
-        <form class="form-news-letter d-flex align-items-center gap-4">
-            <input type="text" placeholder="Enter email for weekly newsletter" class="form-control p-3">
-            <input type="submit" value="Subscribe" class="btn btn-primary p-3">
-        </form>
-    </section>
-
-    <footer>
-        <div class="top-footer container d-flex p-5 pe-3 ps-3">
-            <div class="footer-social-icon col-4 d-flex gap-3">
-                <img src="images/footer-fb.png">
-                <img src="images/footer-tw.png">
-                <img src="images/footer-insta.png">
-            </div>
-            <div class="footer-list-col col-2 d-flex flex-column gap-3">
-                <h4>Explore</h4>
-                <a href="#">About Us</a>
-            </div>
-            <div class="footer-list-col col-3 d-flex flex-column gap-3">
-                <h4>Policy</h4>
-                <a href="#">Terms Of Use</a>
-                <a href="#">Security</a>
-                <a href="#">Privacy</a>
-            </div>
-            <div class="footer-list-col col-5 d-flex flex-column gap-3">
-                <h4>Categories</h4>
-                <a href="#">Action</a>
-                <a href="#">Comedy</a>
-                <a href="#">Drama</a>
-                <a href="#">Horror</a>
-                <a href="#">Kids</a>
-                <a href="#">Romantic Comedy</a>
-            </div>
+        <div class="social-sec-img col-sm-6">
+            <img class="pb-3" src="images/social-img.webp">
         </div>
-        <div class="bottom-footer d-flex justify-content-center p-4">
-            <p class="m-0 text-center">©2024 Pageduo LLC. All Rights Reserved</p>
-        </div>
-    </footer>
+    </div>
+</section>
 
-    <script src="js/js.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+<section class="news-letter-section container d-flex flex-column gap-4 p-5 pe-3 ps-3">
+    <h2>Join our Newsletter</h2>
+    <p class="w-100">Signup to be the first to hear about exclusive deals, special offers and upcoming collections</p>
+    <form class="form-news-letter d-flex align-items-center gap-4">
+        <input type="text" placeholder="Enter email for weekly newsletter" class="form-control p-3">
+        <input type="submit" value="Subscribe" class="btn btn-primary p-3">
+    </form>
+</section>
+
+<footer>
+    <div class="top-footer container d-flex p-5 pe-3 ps-3">
+        <div class="footer-social-icon col-sm-4 d-flex gap-3">
+            <img src="images/footer-fb.png">
+            <img src="images/footer-tw.png">
+            <img src="images/footer-insta.png">
+        </div>
+        <div class="footer-list-col col-sm-2 d-flex flex-column gap-3">
+            <h4>Explore</h4>
+            <a href="#">About Us</a>
+        </div>
+        <div class="footer-list-col col-sm-3 d-flex flex-column gap-3">
+            <h4>Policy</h4>
+            <a href="#">Terms Of Use</a>
+            <a href="#">Security</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="footer-list-col col-sm-5 d-flex flex-column gap-3">
+            <h4>Categories</h4>
+            <a href="#">Action</a>
+            <a href="#">Comedy</a>
+            <a href="#">Drama</a>
+            <a href="#">Horror</a>
+            <a href="#">Kids</a>
+            <a href="#">Romantic Comedy</a>
+        </div>
+    </div>
+    <div class="bottom-footer d-flex justify-content-center p-4">
+        <p class="m-0 text-center">©2024 Pageduo LLC. All Rights Reserved</p>
+    </div>
+</footer>
+
+<script src="js/js.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"
+></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
