@@ -525,9 +525,9 @@ h4.OrderAfter:after {
 .form.d-flex.flex-column.w-100.gap-5 {
   gap: 0 !important;
 }
- div#customize-PAGE {
+div#customize-PAGE {
   top: -200px !important;
-  left: 128px;
+  left: 138px;
  }
  .form-banner {
   padding: 150px 170px;
@@ -544,16 +544,9 @@ h4.OrderAfter:after {
  .pivot-trigger {
   left: 320px;
  }
- .banner-image-set {
-  right: 9px;
- }
  .btn-add-details button, .publish-page button.btn.btn-light,
  input.btn-add-details.create-post-page-btn.btn.btn-danger {
   width: 250px;
- }
- div#customize-PAGE {
-  top: -170px !important;
-  left: 100px;
  }
  .form-banner {
   padding: 150px 150px;
@@ -568,6 +561,10 @@ h4.OrderAfter:after {
  h4.OrderAfter:after {
   top: 592px !important;
   width: 30% !important;
+ }
+ div#customize-PAGE {
+  top: -183px !important;
+  left: 113px;
  }
 }
 @media (max-width: 320px) {  
@@ -589,7 +586,7 @@ h4.OrderAfter:after {
  }
  div#customize-PAGE {
   top: -150px !important;
-  left: 73px;
+  left: 83px;
  }
  .form-banner {
   padding: 150px 130px;
