@@ -649,6 +649,9 @@ div#customize-PAGE {
   flex-wrap: wrap;
   gap: 20px;
  }
+ ul#pills-tab {
+  justify-content: center;
+ }
 }
 @media (max-width: 375px) {  
  .pivot-trigger {
