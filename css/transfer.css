@@ -410,9 +410,8 @@ a {
 }
 .Episode__wrapper .record-btn .cough {
     background-color: rgb(226, 226, 0);
-    padding: 1.5rem 3rem;
+    padding: 30px;
     border-radius: 50px;
-    margin-left: 1rem;
     width: 20%;
 }
 .Episode__wrapper .record-btn .cough a {
@@ -420,8 +419,7 @@ a {
 }
 .Episode__wrapper .record-btn .save {
     background-color: green;
-    padding: 1.5rem 3rem;
-    margin-left: 1rem;
+    padding: 30px;
     width: 20%;
 }
 .Episode__wrapper .record-btn .save img {

@@ -196,6 +196,9 @@ div#create-POST {
   top: 40px !important;
   left: 40px;
  }
+ .narrate.video-info p {
+  font-size: 20px;
+ }
 }
 
 @media (max-width: 768px) {
@@ -365,6 +368,15 @@ h4.OrderAfter:after {
  }
  .listener-col2 .search {
   margin-bottom: 20px;
+ }
+ .video-player {
+  min-height: 450px;
+ }
+ .music .image-bit-3 {
+  display: none;
+ }
+ .Episode__wrapper .music .play-button img {
+  width: 7%;
  }
 }
 @media (max-width: 425px) {
@@ -649,8 +661,28 @@ div#customize-PAGE {
   flex-wrap: wrap;
   gap: 20px;
  }
- ul#pills-tab {
+ ul#pills-tab, .music .images {
   justify-content: center;
+ }
+.story.d-flex.align-items-center.justify-content-start {
+  flex-wrap: wrap;
+ }
+section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
+.Episode__wrapper .content h2 {
+  font-size: 30px !important;
+  text-align: center;
+ }
+ img.image-bit-2 {
+  display: none;
+ }
+ .Episode__wrapper .music .play-button img {
+  width: 15%;
+ }
+ .Episode__wrapper .record-btn .record,
+ .Episode__wrapper .record-btn .cough,
+ .Episode__wrapper .record-btn .save {
+  width: 100%;
+  padding: 20px 100px;
  }
 }
 @media (max-width: 375px) {  
