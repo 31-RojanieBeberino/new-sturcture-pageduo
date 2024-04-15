@@ -399,8 +399,10 @@ h4.OrderAfter:after {
    display: none !important;
  }
  
-.user-banner-details h2 {
+.user-banner-details h2,
+.membership-main-section h2 {
    font-size: 25px;
+   text-align: center;
  }
  .profile-image {
    justify-content: center;
@@ -507,9 +509,24 @@ h4.OrderAfter:after {
  .footer-list-col.col-sm-5.d-flex.flex-column.gap-3 {
   width: 100%;
  }
- .post-items-list {
-  padding: 20px 0;
+ .post-item-content.collection {
+  width: 100%;
  }
+ .collection-img {
+  width: 45%;
+ }
+ .active-view-date.d-flex.align-items-center {
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+ }
+ .active-state {
+  margin: 0% !important;
+ }
+ /* .post-items-list {
+  padding: 20px 0;
+ } */
  section.subscribing-section h2 {
   font-size: 25px;
  }
@@ -577,7 +594,8 @@ h4.OrderAfter:after {
  div#pills-tabContent .card-img-top {
   width: 30%;
  }
- div#pills-tabContent .card-body {
+ div#pills-tabContent .card-body,
+ .d-flex.justify-content-center.align-items-center.flex-row.gap-4.pb-4 {
   flex-wrap: wrap;
  }
  div#pills-tabContent h3 {
@@ -605,7 +623,9 @@ div#customize-PAGE {
   left: -40px;
  }
  input.btn-add-details.create-post-page-btn.btn.btn-primary,
- .video-tag {
+ .video-tag, p.textForm,
+ button.btn.btn-primary.btn-benefit,
+ .btn-submit input {
   margin: 0;
   width: 100%;
   text-align: center;
@@ -703,6 +723,16 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  .Episode__wrapper .record-btn .save {
   width: 100%;
   padding: 20px 100px;
+ }
+.paid-membership.inner-membership {
+  padding: 25px;
+ }
+ .paid-membership.inner-membership .col-1 {
+  width: 13%;
+  object-fit: cover;
+ }
+ .inner-membership h3, .inner-membership form h3 {
+  text-align: center;
  }
 }
 @media (max-width: 375px) {  
