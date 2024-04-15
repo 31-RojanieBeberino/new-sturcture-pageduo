@@ -1107,10 +1107,6 @@ button.active {
     height: 400px;
   }
   
-  .settings-section {
-    width: 100%;
-  }
-  
   .settings-section h2, .subscribing-section h2, .listener-section h2 {
     font-family: "Sharp Sans";
     font-size: 45px;
