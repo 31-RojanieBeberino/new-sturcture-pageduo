@@ -472,7 +472,13 @@ h4.OrderAfter:after {
   flex-wrap: wrap;
 }
 .upload-area {
-  min-height: 400px;
+  min-height: 300px;
+}
+.upload-area img {
+  height: 70px;
+}
+.upload-area h2 {
+  font-size: 20px;
 }
 section.read-books .read-books__wrapper .images img,
 .upload.d-flex {
@@ -854,7 +860,7 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
   text-align: center;
  }
  .about_banner, .narrate_banner {
-  height: 50vh !important;
+  height: 50vh;
   }
 }
 @media (max-width: 375px) {
