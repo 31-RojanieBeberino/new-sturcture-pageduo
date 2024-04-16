@@ -436,6 +436,20 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
+  .formRows-Input.d-flex.justify-content-between.gap-5 {
+    flex-direction: column;
+  }
+  .formRoWs h4:nth-child(2) {
+    position: absolute;
+    top: 850px;
+  }
+  .formRoWs h4:nth-child(3) {
+    position: absolute;
+    top: 950px;
+  }
+.post-items-list {
+  padding: 0;
+}
 .form-wrapper .group-1 {
   flex-wrap: wrap;
 }
@@ -817,9 +831,17 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  }
 }
 @media (max-width: 375px) {  
+  .formRoWs h4:nth-child(2) {
+    position: absolute;
+    top: 875px;
+  }
+  .formRoWs h4:nth-child(3) {
+    position: absolute;
+    top: 980px;
+  }
 .title-story.d-flex.justify-content-between.align--items-center.flex-wrap {
   justify-content: center !important;
-}
+  }
  .pivot-trigger {
   left: 320px;
  }
@@ -852,6 +874,9 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  }
 }
 @media (max-width: 320px) {  
+  .cOLs2 {
+    height: 550px !important;
+  }
   .pivot-trigger {
    left: 250px;
   }
