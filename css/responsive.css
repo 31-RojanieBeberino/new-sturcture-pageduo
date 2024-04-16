@@ -443,7 +443,7 @@ h4.OrderAfter:after {
 }
 @media (max-width: 425px) {
   section.news-letter-section {
-    padding: 0 20px !important;
+    padding: 20px !important;
   }
   .contact-form__wrapper .content form a {
     text-align: center;
@@ -845,7 +845,10 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
   text-align: center;
  }
 }
-@media (max-width: 375px) {  
+@media (max-width: 375px) {
+  .banner-slider .banner-wrapper .banner-content h2 {
+    padding: 0 !important;
+  }
   .formRoWs h4:nth-child(2) {
     position: absolute;
     top: 875px;
