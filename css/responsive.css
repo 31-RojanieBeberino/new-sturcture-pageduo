@@ -221,6 +221,9 @@ div#create-POST {
 }
 
 @media (max-width: 768px) {
+.upload-area img {
+  width: 15%;
+}
 .contact-form {
   background: none;
 }
@@ -442,14 +445,8 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
-  .switch label {
-    font-size: 16px !important;
-  }
   .my-story .story {
     padding: 20px;
-  }
-  .story-details label {
-    font-size: 20px !important;
   }
   section.news-letter-section {
     padding: 20px !important;
@@ -479,9 +476,6 @@ h4.OrderAfter:after {
 }
 .upload-area {
   min-height: 300px;
-}
-.upload-area img {
-  height: 70px;
 }
 .upload-area h2 {
   font-size: 20px;

@@ -485,16 +485,20 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height: 700px;
+  min-height: 500px;
 }
 .upload-area img {
   margin-bottom: 20px;
+  width: 20%;
 }
 .upload-area h2 {
   color: #286fb4;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   font-family: "Sharp Sans", sans-serif;
+}
+.story-details label {
+  font-size: 20px !important;
 }
 .icon-alert {
   background-color: #000;
@@ -513,7 +517,7 @@ body {
 }
 .story-details h2 {
   color: #000;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Sharp Sans", sans-serif;
   margin-bottom: 20px;
