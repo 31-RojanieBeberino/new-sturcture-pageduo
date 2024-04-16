@@ -442,6 +442,9 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
+  .switch label {
+    font-size: 16px !important;
+  }
   .my-story .story {
     padding: 20px;
   }
@@ -484,7 +487,7 @@ h4.OrderAfter:after {
   font-size: 20px;
 }
 section.read-books .read-books__wrapper .images img,
-.upload.d-flex {
+.upload.d-flex, p.upload-docu-P {
     width: 100%;
  }
 .read-books__wrapper,
