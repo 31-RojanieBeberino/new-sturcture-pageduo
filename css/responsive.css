@@ -853,8 +853,14 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  .inner-membership h3, .inner-membership form h3 {
   text-align: center;
  }
+ .about_banner, .narrate_banner {
+  height: 50vh !important;
+  }
 }
 @media (max-width: 375px) {
+  .read-books__wrapper {
+    padding: 20px 5px;
+  }
   .banner-slider .banner-wrapper .banner-content h2 {
     padding: 0 !important;
   }
@@ -901,6 +907,9 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  }
 }
 @media (max-width: 320px) {  
+  .read-books__wrapper .content .read-icon i {
+    margin: 0;
+  }
   div#collections.card {
     width: 17rem !important;
   }
