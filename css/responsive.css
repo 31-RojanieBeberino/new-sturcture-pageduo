@@ -143,6 +143,9 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
  }
 }
 @media (max-width: 1024px) {
+  .contact-form {
+    background-position-x: -390px;
+}
   .setting-inner.p-5.d-flex.gap-4 {
     justify-content: center;
     align-items: center;
@@ -218,6 +221,9 @@ div#create-POST {
 }
 
 @media (max-width: 768px) {
+.contact-form {
+  background: none;
+}
 .upload-docu-3.row {
   gap: 50px;
 }
@@ -436,6 +442,15 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
+  section.news-letter-section {
+    padding: 0 20px !important;
+  }
+  .contact-form__wrapper .content form a {
+    text-align: center;
+  }
+  section.subscribing-section h2 {
+    text-align: center;
+  }
   .formRows-Input.d-flex.justify-content-between.gap-5 {
     flex-direction: column;
   }
@@ -447,7 +462,7 @@ h4.OrderAfter:after {
     position: absolute;
     top: 950px;
   }
-.post-items-list {
+.author-page.post-items-list {
   padding: 0;
 }
 .form-wrapper .group-1 {
