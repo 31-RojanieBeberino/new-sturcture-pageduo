@@ -445,6 +445,9 @@ h4.OrderAfter:after {
   .my-story .story {
     padding: 20px;
   }
+  .story-details label {
+    font-size: 20px !important;
+  }
   section.news-letter-section {
     padding: 20px !important;
   }
