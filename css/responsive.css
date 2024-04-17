@@ -143,6 +143,10 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
  }
 }
 @media (max-width: 1024px) {
+  .login-form__wrapper .log-form h3::before,
+  .login-form__wrapper .log-form h3::after {
+    width: 130px;
+}
   .contact-form {
     background-position-x: -390px;
 }
@@ -221,6 +225,13 @@ div#create-POST {
 }
 
 @media (max-width: 768px) {
+.login-form__wrapper {
+  grid-template-columns: 1fr;
+}
+.login-form__wrapper .log-form h3::before,
+.login-form__wrapper .log-form h3::after {
+  width: 260px;
+}
 .upload-area img {
   width: 15%;
 }
@@ -271,6 +282,7 @@ nav.container.d-flex.align-items-center.gap-4.p-3 {
  }
 .about_banner h1, .narrate_banner h1 {
     font-size: 3rem;
+    padding-top: 100px;
  }
 .about_banner, .narrate_banner {
     height: 60vh;
@@ -445,29 +457,33 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
-  .my-story .story {
-    padding: 20px;
-  }
-  section.news-letter-section {
-    padding: 20px !important;
-  }
-  .contact-form__wrapper .content form a {
-    text-align: center;
-  }
-  section.subscribing-section h2 {
-    text-align: center;
-  }
-  .formRows-Input.d-flex.justify-content-between.gap-5 {
-    flex-direction: column;
-  }
-  .formRoWs h4:nth-child(2) {
-    position: absolute;
-    top: 850px;
-  }
-  .formRoWs h4:nth-child(3) {
-    position: absolute;
-    top: 950px;
-  }
+.login-form__wrapper .log-form h3::before,
+.login-form__wrapper .log-form h3::after {
+  width: 120px;
+}
+.my-story .story {
+  padding: 20px;
+}
+section.news-letter-section {
+  padding: 20px !important;
+}
+.contact-form__wrapper .content form a {
+  text-align: center;
+}
+section.subscribing-section h2 {
+  text-align: center;
+}
+.formRows-Input.d-flex.justify-content-between.gap-5 {
+  flex-direction: column;
+}
+.formRoWs h4:nth-child(2) {
+  position: absolute;
+  top: 850px;
+}
+.formRoWs h4:nth-child(3) {
+  position: absolute;
+  top: 950px;
+}
 .author-page.post-items-list {
   padding: 0;
 }
@@ -864,20 +880,32 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
   }
 }
 @media (max-width: 375px) {
-  .read-books__wrapper {
-    padding: 20px 5px;
-  }
-  .banner-slider .banner-wrapper .banner-content h2 {
-    padding: 0 !important;
-  }
-  .formRoWs h4:nth-child(2) {
-    position: absolute;
-    top: 875px;
-  }
-  .formRoWs h4:nth-child(3) {
-    position: absolute;
-    top: 980px;
-  }
+.login-form__wrapper .log-form h3::before,
+.login-form__wrapper .log-form h3::after {
+  width: 90px;
+}
+.login-form__wrapper .log-form h1 {
+  font-size: 1.5rem;
+}
+.login-form__wrapper .log-form .btn-f i a,
+.login-form__wrapper .log-form .btn-g i a,
+.login-form__wrapper .log-form .btn-login a {
+  font-size: 15px;
+}
+.read-books__wrapper {
+  padding: 20px 5px;
+}
+.banner-slider .banner-wrapper .banner-content h2 {
+  padding: 0 !important;
+}
+.formRoWs h4:nth-child(2) {
+  position: absolute;
+  top: 875px;
+}
+.formRoWs h4:nth-child(3) {
+  position: absolute;
+  top: 980px;
+}
 .title-story.d-flex.justify-content-between.align--items-center.flex-wrap {
   justify-content: center !important;
   }
@@ -912,7 +940,17 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
   margin: 0;
  }
 }
-@media (max-width: 320px) {  
+@media (max-width: 320px) {
+  .login-form__wrapper .log-form h1 {
+    font-size: 1.2rem;
+  }
+  .login-form__wrapper .log-form h3::before,
+  .login-form__wrapper .log-form h3::after {
+    width: 70px;
+  }
+  .dont-have-account a {
+    padding-right: 13px;
+  }
   .read-books__wrapper .content .read-icon i {
     margin: 0;
   }
