@@ -1488,7 +1488,7 @@ button.active {
 .login-form__wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 3rem;
 }
 .login-form__wrapper .log-form h1 {
   font-weight: 500;
@@ -1604,6 +1604,19 @@ button.active {
 .login-form__wrapper .log-form .dont-have-account .sign-up {
   color: #286fb4;
   text-decoration: none;
+}
+/* Sign Up Page */
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"]  {
+  padding: 1rem 2rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #707070;
+}
+.signup.image img {
+  height: 550px;
+  object-fit: cover;
 }
   /*# sourceMappingURL=style.css.map */
   

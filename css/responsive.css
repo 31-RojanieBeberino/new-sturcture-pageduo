@@ -143,6 +143,11 @@ ul.d-flex.align-items-center.gap-5.justify-content-center.m-0 {
  }
 }
 @media (max-width: 1024px) {
+  .signup-form input[type="text"],
+  .signup-form input[type="email"], 
+  .signup-form input[type="password"] {
+    padding: 0.6rem 2rem;
+}
   .login-form__wrapper .log-form h3::before,
   .login-form__wrapper .log-form h3::after {
     width: 130px;
@@ -457,6 +462,9 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
+.login-form__wrapper .log-form {
+  padding: 50px 20px;
+}
 .login-form__wrapper .log-form h3::before,
 .login-form__wrapper .log-form h3::after {
   width: 120px;
