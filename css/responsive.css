@@ -230,6 +230,15 @@ div#create-POST {
 }
 
 @media (max-width: 768px) {
+.filtering-page .book-list {
+  align-items: center;
+}
+.filtering-page h1 {
+  text-align: left !important;
+}
+.email-confirmation-form .btn-login a {
+  padding: 1rem 12rem;
+}
 .login-form__wrapper {
   grid-template-columns: 1fr;
 }
@@ -462,6 +471,44 @@ h4.OrderAfter:after {
  }
 }
 @media (max-width: 425px) {
+.filtering-page .filter,
+.filtering-page .book-list .images,
+.filtering-page .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtering-page .book-list {
+  grid-template-columns: 1fr;
+}
+.filtering-page .filter select {
+  font-size: 25px;
+}
+.filtering-page .book-list .content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+}
+.filtering-page img {
+  width: 50%;
+}
+.filtering-page p {
+  width: 100%;
+  text-align: center;
+}
+.filtering-page .btn-pagination a:nth-child(4) {
+  margin: 0;
+}
+.filtering-page .book-list .content .icon i:nth-child(3) {
+  margin-right: 0;
+}
+.filtering-page .btn-pagination {
+  padding: 0;
+}
+.email-confirmation-form .btn-login a {
+  padding: 1rem 6rem;
+}
 .login-form__wrapper .log-form {
   padding: 50px 20px;
 }
@@ -949,13 +996,19 @@ section.Episode.narrate-page h1, .Episode__wrapper .story .content h1,
  }
 }
 @media (max-width: 320px) {
-  .login-form__wrapper .log-form h1 {
-    font-size: 1.2rem;
-  }
-  .login-form__wrapper .log-form h3::before,
-  .login-form__wrapper .log-form h3::after {
-    width: 70px;
-  }
+.filtering-page .content h1 {
+  font-size: 25px;
+}
+.email-confirmation-form .btn-login a {
+  padding: 1rem 3rem;
+}
+.login-form__wrapper .log-form h1 {
+  font-size: 1.2rem;
+}
+.login-form__wrapper .log-form h3::before,
+.login-form__wrapper .log-form h3::after {
+  width: 70px;
+}
   .dont-have-account a {
     padding-right: 13px;
   }

@@ -1480,6 +1480,13 @@ button.active {
   width: 100%;
 }
 /* login page */
+.login_banner {
+  background-image: url('../../images/Group 123.webp');
+  height: 40vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .login-form__wrapper .log-form {
   padding: 4rem 3rem;
   max-height: 90vh;
@@ -1617,6 +1624,84 @@ button.active {
 .signup.image img {
   height: 550px;
   object-fit: cover;
+}
+/* email page */
+.email-confirmation-form h1 {
+  font-weight: 600;
+  text-align: center;
+  color: #286fb4;
+  font-size: 2rem;
+}
+.email-confirmation-form p,
+#forgot-password p {
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  width: 100%;
+}
+.email-confirmation-form .btn-login a {
+  padding: 1rem 9rem;
+  background-color: #286fb4;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+/* terms and agreement page */
+.terms-pageduo__wrapper p {
+  width: 100%;
+}
+/* filtering page */
+.filtering-page .filter {
+  border-bottom: 1px solid rgb(192, 187, 187);
+  padding: 10px 0;
+}
+.filtering-page .filter select {
+  border: none;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  font-weight: bold;
+  color: #286fb4;
+}
+.filtering-page .filter select:nth-child(1) {
+  margin: 0;
+}
+.filtering-page h1 {
+  font-size: 2rem;
+}
+.filtering-page .book-list {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 20px 0;
+}
+.filtering-page .book-list .content {
+  padding-top: 5rem;
+}
+.filtering-page .book-list .content h1 {
+  font-weight: bold;
+  color: #df4c73;
+  margin-bottom: 0.5rem;
+}
+.filtering-page .book-list .content .icon i {
+  margin-right: 2rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.filtering-page .book-list .content p {
+  margin-bottom: 1rem;
+}
+.filtering-page .book-list .content a {
+  color: #df4c73;
+  border-bottom: 2px solid #e4b6c2;
+  padding: 0.5rem 0;
+}
+.filtering-page .btn-pagination {
+  text-align: center;
+  padding-bottom: 10rem;
+}
+.filtering-page .btn-pagination a {
+  color: #df4c73;
+  margin-right: 2rem;
+  font-size: 1.3rem;
 }
   /*# sourceMappingURL=style.css.map */
   
