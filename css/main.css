@@ -683,7 +683,7 @@ body {
 .banner-slider .banner-wrapper {
   background-size: 100% 100%;
   min-height: 50vh;
-  padding: 180px 0 100px;
+  padding: 250px 0 100px;
 }
 @media screen and (max-width: 400px) {
   .banner-content h2 {
