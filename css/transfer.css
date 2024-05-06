@@ -55,7 +55,7 @@ section.homepage.social-media-section.p-5.pe-3.ps-3.mt-5 {
 }
 .about_banner, .narrate_banner {
     background-image: url('../../images/Group 123.webp');
-    height: 80vh;
+    height: 50vh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
